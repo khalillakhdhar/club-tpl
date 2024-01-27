@@ -21,7 +21,19 @@ for(let x of voiture) // for of pour parcourir les tableaux
 {
     console.log(x);
 }
-
+x=0;
+/*
+while(x>0) // while classique
+{
+    console.log(x);
+    x--;
+}
+*/
+do // do while
+{
+    console.log(x);
+    x--;
+}while(x>0);
 
 
 //boucle();
