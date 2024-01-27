@@ -6,7 +6,7 @@ function boucle() {
         }
         else
         {
-            console.log(i+" est impaire");
+            console.log(i+" est impaire"); // afficher les nombre impaire dans un intervalle
         }
     }
 }
