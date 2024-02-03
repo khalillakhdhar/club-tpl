@@ -10,6 +10,7 @@ mongoose.connect(uri)
 
 async function createUser() {
     const user = new User({
+        
         nom: 'Youssef',
         age: 33,
         email: 'jsuser@gmail.com'
